@@ -11,4 +11,4 @@ Video Presentation: A video showcasing additional content.
 Social Links: Connect with Asad Ullah Anwar on LinkedIn, GitHub, and StackOverflow.
 Technologies Used
 HTML
-CSS
+CSS ts
