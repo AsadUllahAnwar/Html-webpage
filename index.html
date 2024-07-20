@@ -3,83 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Asad Ullah Anwar</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .profile-container {
-            width: 50%;
-            margin: 50px auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        .profile-container img {
-            display: block;
-            margin: 0 auto;
-            border-radius: 50%;
-        }
-        .profile-details {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .profile-details h1 {
-            margin: 0;
-        }
-        .profile-details p {
-            color: #555;
-        }
-        .profile-video {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #fff;
-            box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-        .social-icons a {
-            text-decoration: none;
-        }
-        .social-icons img {
-            width: 30px;
-            height: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-left">
+                <img src="admin.jpg" alt="Profile Icon" class="navbar-icon">
+            </div>
+            <ul class="navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="profile-container">
-        <img src="asad1.jpg" alt="Profile Picture" width="150" height="150">
-        <div class="profile-details">
-            <h1>Asad Ullah Anwar</h1>
-            <p>Email: iamasadullahanwar@gmail.com</p>
-            <p>Address: Sultan Town, Lahore</p>
-            <p>Phone: +92 3143585798</p>
-            <p>I am doing BS Computer Science from Riphah International University</p>
+        <img src="asad1.jpg" alt="Profile Picture" class="profile-picture">
+        <div class="introduction">
+            <h2>Introduction</h2>
+            <p><strong>Name:</strong> Asad Ullah Anwar</p>
+            <p><strong>Email:</strong> <a href="mailto:iamasadullahanwar@gmail.com">iamasadullahanwar@gmail.com</a></p>
+            <p><strong>Address:</strong> Sultan Town, Lahore</p>
+            <p><strong>Phone:</strong> <a href="tel:+923143585798">+92 3143585798</a></p>
         </div>
-        <div class="profile-video">
-            <video width="320" height="240" controls>
-                <source src="asad2.mp4" type="video/mp4">
-                
-            </video>
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>I am a passionate developer with a keen interest in frontend and full stack development. I have obtained an Advanced React certificate and am always eager to learn new technologies and improve my skills.</p>
+            <p>I am doing BS Computer Science from Riphah International University.</p>
+        </div>
+        <div class="technologies-section">
+            <h2>Technologies I Skills</h2>
+            <div class="technologies">
+                <div class="tech-item">
+                    <h4>HTML</h4>
+                    <p>The standard markup language for creating web pages.</p>
+                </div>
+                <div class="tech-item">
+                    <h4>CSS</h4>
+                    <p>A style sheet language used for describing the presentation of a document written in HTML.</p>
+                </div>
+                <div class="tech-item">
+                    <h4>JavaScript</h4>
+                    <p>A programming language that conforms to the ECMAScript specification and is used to create interactive effects within web browsers.</p>
+                </div>
+                <div class="tech-item">
+                    <h4>React.js</h4>
+                    <p>A JavaScript library for building user interfaces, maintained by Facebook and a community of individual developers and companies.</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Web Development</h4>
+                    <p>The work involved in developing a website for the Internet or an intranet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-section">
+            <h2>Video</h2>
+            <div class="video-box">
+                <video width="320" height="240" controls>
+                    <source src="asad2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div class="audio-section">
+            <h2>Audio</h2>
+            <div class="audio-box">
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
         </div>
     </div>
-    <div class="footer">
-        <p>&copy; 2024 AsadUllahAnwar. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2024 Asad Ullah Anwar. All rights reserved.</p>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/asad-ullah-anwar" target="_blank">
                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
@@ -91,6 +92,6 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/2111/2111628.png" alt="StackOverflow">
             </a>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
